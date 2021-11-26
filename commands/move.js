@@ -33,8 +33,8 @@ module.exports = {
       return client.sendTime(message.channel, "❌ | **Invalid track number.**");
     }
 
-    let dest = parseInt(args[1]);
-    if (dest < 1 || dest > player.queue.length - 1) {
+    let dest = parseInt(args[1] - 1);
+    if (dest < 0 || dest > player.queue.length - 1) {
       return client.sendTime(
         message.channel,
         "❌ | **Invalid track destination.**"
