@@ -28,9 +28,9 @@ module.exports = {
   //Lavalink
   Lavalink: {
     id: "Main",
-    host: "lava.link",
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "your password",
+    host: "lavalink.pumpdev.org",
+    port: 3876, // The port that lavalink is listening to. This must be a number!
+    pass: "pumpisfree",
     retryAmount: 5, // - Optional
     retryDelay: 1000, // - Optional
     secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
