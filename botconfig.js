@@ -28,8 +28,8 @@ module.exports = {
   //Lavalink
   Lavalink: {
     id: "Main",
-    host: "losingtime.dpaste.org",
-    port: 2124, // The port that lavalink is listening to. This must be a number!
+    host: "lava.link",
+    port: 80, // The port that lavalink is listening to. This must be a number!
     pass: "SleepingOnTrains",
     retryAmount: 5, // - Optional
     retryDelay: 1000, // - Optional
