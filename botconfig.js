@@ -14,7 +14,7 @@ module.exports = {
   "24/7": true, //If you want the bot to be stay in the vc 24/7
   CookieSecret: "Pikachu is cute", //A Secret like a password
   IconURL:
-    "https://media.giphy.com/media/YnrGv2F2ijCx9WpGLq/giphy.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
+    "https://media.giphy.com/media/MZEqZDuqQ03rnV7Azs/giphy.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "#212121", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
   Permissions: 2205281600, //Bot Inviting Permissions
   Website: process.env.Website || "http://0.0.0.0", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
